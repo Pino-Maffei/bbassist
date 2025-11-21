@@ -1,0 +1,7 @@
+{
+  "name": "AI Host Assistant",
+  "description": "A voice-powered AI assistant to help Airbnb guests with questions about their stay. Converse in real-time in multiple languages using Gemini's Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
