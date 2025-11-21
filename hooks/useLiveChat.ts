@@ -188,7 +188,7 @@ export const useLiveChat = () => {
     setChatHistory([]); // Start with a fresh chat history
 
     try {
-      const apiKey = process.env.API_KEY;
+      const apiKey = import.meta.env.VITE_API_KEY;
       if (!apiKey) {
         throw new Error("La chiave API non è configurata. Assicurati che API_KEY sia impostata correttamente nell'ambiente di deploy (es. Netlify).");
       }
